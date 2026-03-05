@@ -1,16 +1,14 @@
 {
   "dependencies": {
-    "com.stereolabs.zed": {
-      "version": "https://github.com/stereolabs/zed-unity.git?path=/ZEDCamera/Assets",
+    "com.ptc.vuforia.engine": {
+      "version": "file:com.ptc.vuforia.engine-11.4.4.tgz",
       "depth": 0,
-      "source": "git",
+      "source": "local-tarball",
       "dependencies": {
-        "com.unity.xr.management": "4.4.0",
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.imageconversion": "1.0.0"
-      },
-      "hash": "3be7f658e8cc8f6c21164d28ac1c0e49ac940347"
+        "com.unity.inputsystem": "1.11.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
     },
     "com.unity.ai.navigation": {
       "version": "2.0.10",
@@ -102,6 +100,13 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
       "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -202,37 +207,6 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.core-utils": {
-      "version": "2.5.3",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.xr": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.13",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.management": {
-      "version": "4.5.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.core-utils": "2.2.1",
-        "com.unity.modules.subsystems": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.11"
       },
       "url": "https://packages.unity.com"
     },
