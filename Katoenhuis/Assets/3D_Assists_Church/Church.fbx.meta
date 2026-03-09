@@ -3,7 +3,92 @@ guid: ba613c2d3c3fcae4285511e5760f9cfa
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Altar
+    second: {fileID: 2100000, guid: d7f56b4ffcc1111449e8dc3c2dad05c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 59774f9d3ffd6b34aafd11363e2287e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base 3
+    second: {fileID: 2100000, guid: e0b3add7754540d45b1a1af40b55de5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base2
+    second: {fileID: 2100000, guid: 72a6c5ae81682494fa59fb17c70acfa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beams
+    second: {fileID: 2100000, guid: f7571d27baaceab40852681413285014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bench
+    second: {fileID: 2100000, guid: 93d1a6dcf6db4ac42bc995d60fa3e330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet
+    second: {fileID: 2100000, guid: f80400b83cc2d0444b743b652e6a6c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 76791351c7b7b064fb96f207452b8410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor2
+    second: {fileID: 2100000, guid: 17579fd132a089446992f59528378df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 9a8b4c3e100d331448e609e695799a74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Led
+    second: {fileID: 2100000, guid: f2b6f73f891ee7c46b9c6a7314ff3463, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: 798041235eb981d4498dfd30ded21f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar2
+    second: {fileID: 2100000, guid: 6cadb7b7b132906478a76aab167822c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Podium
+    second: {fileID: 2100000, guid: 2f2f3c0ead5beb146b8cfa7db01724dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring
+    second: {fileID: 2100000, guid: 60b0fa0ccd9e8ff43ba16a0f88b467a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: 0e2496d54a4a7df45a15b14995358a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wires
+    second: {fileID: 2100000, guid: 4524c0dd43add8c44ae7d2b31f77f206, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
