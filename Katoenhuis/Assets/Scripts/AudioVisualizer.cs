@@ -137,19 +137,19 @@ public class AudioVisualizer : MonoBehaviour
 
         for (int r = 0; r < rows; r++)
             for (int c = 0; c < columns; c++)
-                if (c == columns / 2)
+                if (c == columns / 2 || c == (columns / 2) -1 || c == (columns / 2) - 2 || c == (columns / 2) - 3 || c == (columns / 2) + 1 || c == (columns / 2) + 2 || c == (columns / 2) + 3)
                 {
                     _basePositions[r * columns + c] = transform.position + new Vector3(
-                    c * spacingMiddleX - offsetMiddleX,
                     0f,
-                    r * spacingZ - offsetZ);
+                    r * spacingZ - offsetZ,
+                    c * spacingMiddleX - offsetMiddleX);
                 }
                 else
                 {
                     _basePositions[r * columns + c] = transform.position + new Vector3(
-                        c * spacingX - offsetX,
                         0f,
-                        r * spacingZ - offsetZ);
+                        r * spacingZ - offsetZ,
+                        c * spacingX - offsetX);
                 }
 
         // History buffer
@@ -228,7 +228,7 @@ public class AudioVisualizer : MonoBehaviour
                 {
                     float y = Evaluate(yPosition, colVal, rowVal, crossVal);
                     if (r == 0 && c == 0) dbgYBlock00 = y;
-                    pos.y = y;
+                    pos.x = -y;
                 }
 
                 // Scale
@@ -243,7 +243,7 @@ public class AudioVisualizer : MonoBehaviour
                     _rotations[i] *= Quaternion.AngleAxis(deg, rotAxisN);
                 }
 
-                _matrices[i] = Matrix4x4.TRS(pos, _rotations[i], new Vector3(xScale, 1, zScale) * s);
+                _matrices[i] = Matrix4x4.TRS(pos, _rotations[i], new Vector3(1, zScale, xScale) * s);
             }
         }
 
