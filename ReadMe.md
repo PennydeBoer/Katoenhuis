@@ -27,10 +27,25 @@ After trying a while with the ZED i2 camera with the wrong cable, I gave up and 
 On the second day someone informed me that the zed 2i has a special cable and after setting it up again it worked!  
 After some hardships i got to testing with the Unity samples and I found some issues with the settings after a while of debugging I got it to work and i could start with building the program the next day
 
+## Day 3
+### Issues
+Having never worked with object tracking before i got a lot of issues with the tracking, so I'm going to hard switch to coding visuals based on sound.
 
-## External research sources
+## Day 4 
+### Interaction through sound design
+[![Visuals based on sound](SRCRM/ExampleThumbnail.png)](SRCRM/Example.mp4)
+Using code made by teachers and and some of my own tweaking for visuals.  
+After looking at the code I added values to change the shape and values to change the color.   
+By making the rgb value have r on bass green on peak and blue on 1 you will get a system that can change the color of the shader I made.  
+The shader uses multiply nodes to make the color more intense.
 
-[Hand tracking in unity by Alec filios](https://github.com/alecfilios/Unity-Hand-Tracking-Gesture-Recognition-using-Mediapipe)
- | [Model targetting using vuforia engine](https://developer.vuforia.com/library/vuforia-engine/images-and-objects/model-targets/model-targets/) 
-| [Model targetting in Unity](https://developer.vuforia.com/library/vuforia-engine/images-and-objects/model-targets/unity-guide/introduction-model-targets-unity/) 
-| [Creating a Model target](https://developer.vuforia.com/library/vuforia-engine/images-and-objects/model-targets/creating-model-targets/how-create-model-target/)
+### Testing
+After a little bit of testing I found out the camera in unity turns off post processing, because of that you couldnt see the emission of the color in the game scene.  
+Also by flipping the shaders because i originally intended to make the plane glow i found that it had a way better effect
+
+### Some issues
+I'm not quite sure how good the visuals are based on sound because I had to use a virtual cable to test things
+
+## Scripts
+
+[Audio Visualizer](Katoenhuis/Assets/Scripts/AudioVisualizer.cs) | [Color changing](Katoenhuis/Assets/Scripts/ChangingLight.cs) | [Audio data tracking](Katoenhuis/Assets/Scripts/RealTimeAudioFeatures.cs)
