@@ -33,7 +33,7 @@ Having never worked with object tracking before i got a lot of issues with the t
 
 ## Day 4 
 ### Interaction through sound design
-[![Visuals based on sound](SRCRM/ExampleThumbnail.png)](SRCRM/Example.mp4)
+[![Visuals based on sound](SRCRM/ExampleThumbnail.png)](SRCRM/Example.mp4)  
 Using code made by teachers and and some of my own tweaking for visuals.  
 After looking at the code I added values to change the shape and values to change the color.   
 By making the rgb value have r on bass green on peak and blue on 1 you will get a system that can change the color of the shader I made.  
@@ -48,9 +48,10 @@ I'm not quite sure how good the visuals are based on sound because I had to use 
 
 ## Day 4/5
 ### Hand tracking is annoying
-On day 4 I couldnt get handtracking to work due to mediapipe solutions being depricated and i asked one of my teammates to do it in touch designer
+On day 4 I couldnt get handtracking to work due to mediapipe solutions being depricated, so I asked one of my teammates to do it in touch designer.
 ### building scenes
-I finished building the [church](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Church) scene and the [clock](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Clock) scene, now we need to setup the projectors and crts
+I finished building the [church](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Church) scene and the [clock](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Clock) scene.  
+Now we need to setup the projectors and crts.
 
 ![Clock Gif](SRCRM/ClockCrash.gif)
 ![Church Gif](SRCRM/ChurchAudioVisuals.gif)
