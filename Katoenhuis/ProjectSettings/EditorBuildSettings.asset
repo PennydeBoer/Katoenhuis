@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MapSetup.unity
-    guid: 521e06ce2344bba4595aab45b3666cea
+    path: Assets/Scenes/Klok.unity
+    guid: 491be2ee4babc0343bd0732f09ee7d11
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c0f374bf6db37fa4995dfb1ffc2bcafa, type: 2}

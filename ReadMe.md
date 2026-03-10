@@ -46,6 +46,15 @@ Also by flipping the shaders because i originally intended to make the plane glo
 ### Some issues
 I'm not quite sure how good the visuals are based on sound because I had to use a virtual cable to test things
 
+## Day 4/5
+### Hand tracking is annoying
+On day 4 I couldnt get handtracking to work due to mediapipe solutions being depricated and i asked one of my teammates to do it in touch designer
+### building scenes
+I finished building the [church](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Church) scene and the [clock](https://github.com/PennydeBoer/Katoenhuis/releases/tag/Clock) scene, now we need to setup the projectors and crts
+
+![Clock Gif](SRCRM/ClockCrash.gif)
+![Church Gif](SRCRM/ChurchAudioVisuals.gif)
+
 ## Scripts
 
-[Audio Visualizer](Katoenhuis/Assets/Scripts/AudioVisualizer.cs) | [Color changing](Katoenhuis/Assets/Scripts/ChangingLight.cs) | [Audio data tracking](Katoenhuis/Assets/Scripts/RealTimeAudioFeatures.cs)
+[Audio Visualizer](Katoenhuis/Assets/Scripts/AudioVisualizer.cs) | [Color changing](Katoenhuis/Assets/Scripts/ChangingLight.cs) | [Audio data tracking](Katoenhuis/Assets/Scripts/RealTimeAudioFeatures.cs) | [Cam Aspect ratio](Katoenhuis/Assets/Scripts/AspectLock.cs) | [Clock Virus](Katoenhuis/Assets/Scripts/RandomlyGeneratedTimer.cs)
