@@ -17,7 +17,7 @@ Material:
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords: []
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2225
   stringTagMap: {}
@@ -260,8 +260,8 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveColor: {r: 0, g: 21.398489, b: 55.2, a: 55.2}
-    - _EmissiveColorLDR: {r: 0, g: 0.65583825, b: 1, a: 1}
+    - _EmissiveColor: {r: 0.000006652853, g: -0.09992777, b: 1, a: 1}
+    - _EmissiveColorLDR: {r: 0, g: 0.58154774, b: 1, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}

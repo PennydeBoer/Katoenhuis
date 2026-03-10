@@ -10,6 +10,6 @@ public class ChangingLight : MonoBehaviour
     }
     private void Update()
     {
-        glowEmission.SetColor("_TextureColor", new Color(audioSource.bass, audioSource.peak-0.1f, 1));
+        glowEmission.SetColor("_EmissiveColor", new Color(audioSource.bass, audioSource.peak-0.1f, 1));
     }
 }

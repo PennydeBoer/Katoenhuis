@@ -42,6 +42,8 @@ public class AudioVisualizer : MonoBehaviour
              "Set equal to block width for zero gap.")]
     public float spacingX = 1f;
 
+    public float spacingMiddleX = 1f;
+
     [Tooltip("World-space distance between block centres on Z. " +
              "Set equal to block depth for zero gap.")]
     public float spacingZ = 1f;
@@ -130,14 +132,25 @@ public class AudioVisualizer : MonoBehaviour
             _rotations[i] = Quaternion.identity;
 
         float offsetX = (columns - 1) * spacingX * 0.5f;
+        float offsetMiddleX = (columns - 1) * spacingMiddleX * 0.5f;
         float offsetZ = (rows    - 1) * spacingZ * 0.5f;
 
         for (int r = 0; r < rows; r++)
             for (int c = 0; c < columns; c++)
-                _basePositions[r * columns + c] = transform.position + new Vector3(
-                    c * spacingX - offsetX,
+                if (c == columns / 2)
+                {
+                    _basePositions[r * columns + c] = transform.position + new Vector3(
+                    c * spacingMiddleX - offsetMiddleX,
                     0f,
                     r * spacingZ - offsetZ);
+                }
+                else
+                {
+                    _basePositions[r * columns + c] = transform.position + new Vector3(
+                        c * spacingX - offsetX,
+                        0f,
+                        r * spacingZ - offsetZ);
+                }
 
         // History buffer
         int histSlots  = outwardFromCenter ? Mathf.Max(1, columns / 2) : columns;
